@@ -1,0 +1,50 @@
+<html>
+   <head>
+      <style>
+         h1
+         {
+            font-size: 25px;
+            color: red;
+         }  
+         body
+         {
+            background-color: yellow;
+         }
+         fieldset
+         {
+            background-color: cyan;
+            text-align: center;
+         }
+         .b1
+         {
+            background-color: green;
+         }
+         .b2
+         {
+            background-color: blue;
+         }
+      </style>
+   </head>
+   <body>
+      <form>
+         <h1 align="center">Project Management</h1>
+         <fieldset>
+            Project Name : <input type="text"><br><br>
+            Assigned to  : <select>
+                             <option>Om</option>
+                             <option>Sai</option>
+                             <option>Ram</option>
+                             <option>Sham</option>
+                           </select><br><br>
+            Start Date   : <input type="date"><br><br>
+            End Date     : <input type="date"><br><br>
+            Priority     : <input type="radio" name="r1">High
+                           <input type="radio" name="r1">Average
+                           <input type="radio" name="r1">Low<br><br>
+            Description  : <textarea rows="5" cols="20"></textarea><br><br>
+            <input class="b1" type="button" value="Submit">   
+            <input class="b2" type="reset" value="Clear">
+         </fieldset>
+      </form>
+   </body>
+</html>
